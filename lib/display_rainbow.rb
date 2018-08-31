@@ -6,6 +6,7 @@ def display_rainbow(colors)
   #{colors[4][0].upcase}: #{colors[4]}, #{colors[5][0].upcase}: #{colors[5]},
   #{colors[6][0].upcase}: #{colors[6]}
   EOF
+  puts message
 end
 
 my_colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
