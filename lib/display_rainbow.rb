@@ -1,8 +1,12 @@
 # Write your #display_rainbow method here
 def display_rainbow(colors)
-  message = <<~EOF
-  "#{colors[0][0].upcase}: #{colors[0]}, #{colors[1][0].upcase}: #{colors[1]}, #{colors[2][0].upcase}: #{colors[2]}, #{colors[3][0].upcase}: #{colors[3]}, #{colors[4][0].upcase}: #{colors[4]}, #{colors[5][0].upcase}: #{colors[5]}, #{colors[6][0].upcase}: #{colors[6]}
-  EOF
+  message = "#{colors[0][0].upcase}: #{colors[0]}, "
+  message += "#{colors[1][0].upcase}: #{colors[1]}, "
+  message += "#{colors[2][0].upcase}: #{colors[2]}, "
+  message += "#{colors[3][0].upcase}: #{colors[3]}, "
+  message += "#{colors[4][0].upcase}: #{colors[4]}, "
+  message += "#{colors[5][0].upcase}: #{colors[5]}, "
+  message += "#{colors[6][0].upcase}: #{colors[6]}"
   puts message
 end
 
