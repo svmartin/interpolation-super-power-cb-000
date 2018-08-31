@@ -3,7 +3,7 @@ def display_rainbow(colors)
   result = colors.map do |color|
     "#{color[0].upcase}: #{color}"
   end
-  result.join(", ")
+  result.join(", ") + "\n"
 end
 
 my_colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
