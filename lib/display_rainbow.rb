@@ -13,3 +13,6 @@ end
 my_colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
 
 p display_rainbow(my_colors)
+
+"R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet\n"
+"R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet\n"
