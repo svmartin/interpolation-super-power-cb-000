@@ -8,4 +8,4 @@ end
 
 my_colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"]
 
-display_rainbow(my_colors)
+p display_rainbow(my_colors)
